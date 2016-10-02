@@ -6,7 +6,7 @@ namespace WebApp.Controllers
     {
         public IActionResult Index()
         {
-            return RedirectToAction("Home");
+            return View("Home");
         }
         /// <summary>
         /// Returns Home Website view for llamas.co.nz. Based on https://web.archive.org/web/20141009071809/http://www.llamas.co.nz/index.html
@@ -36,9 +36,6 @@ namespace WebApp.Controllers
         public IActionResult LatestNews()
         {
             //get latest data from facebook group. Sync images
-
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
