@@ -489,11 +489,27 @@ footer {
 h2.title{
     margin-bottom: $margin-base * 2;
 }
+
+.subtitle {
+    font-family: 'Pacifico', cursive;
+}
+
+.subtitle-small, .subtitle {
+    display:inline;
+}
+
 .description{
     color: $gray-light;
 }
 
-// general style for example pages
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
 .header-filter{
     position: relative;
 
