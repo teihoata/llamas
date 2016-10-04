@@ -191,4 +191,5 @@
 -resource:"C:\Users\Marcus\Source\Repos\llamas\WebApp\obj\Debug\netcoreapp1.0\WebAppdotnet-compile.deps.json",WebApp.deps.json
 "C:\Users\Marcus\Source\Repos\llamas\WebApp\Program.cs"
 "C:\Users\Marcus\Source\Repos\llamas\WebApp\Startup.cs"
+"C:\Users\Marcus\Source\Repos\llamas\WebApp\Controllers\FacebookWebhookController.cs"
 "C:\Users\Marcus\Source\Repos\llamas\WebApp\Controllers\LlamaController.cs"

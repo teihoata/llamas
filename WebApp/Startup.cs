@@ -54,6 +54,9 @@ namespace WebApp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Llama}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "api",
+                    template: "api/{controller=FacebookWebhook}");
             });
         }
     }
