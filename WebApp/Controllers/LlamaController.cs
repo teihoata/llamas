@@ -47,8 +47,6 @@ namespace WebApp.Controllers
         /// </returns>
         public IActionResult WhatsHappening()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
